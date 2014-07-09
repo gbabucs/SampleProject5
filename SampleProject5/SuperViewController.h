@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SuperViewController.h
 //  SampleProject5
 //
 //  Created by Mobility on 27/05/14.
@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MenuViewController.h"
-#import "DownloadData.h"
 
-@interface ViewController : UIViewController{
-    MenuViewController *menu;
+@interface SuperViewController : UIViewController{
+    
 }
+@property(strong) UIView *topBar;
+@property(strong) UIView *bottomBar;
 
 @end

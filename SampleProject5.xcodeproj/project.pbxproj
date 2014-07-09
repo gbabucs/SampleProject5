@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69089E0F193C6F1C00EA25BE /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 69089E0E193C6F1C00EA25BE /* FileManager.m */; };
+		695412CB1941D0F800F47E06 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695412CA1941D0F800F47E06 /* MapKit.framework */; };
 		6997FE951934507F00EDDB3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6997FE941934507F00EDDB3B /* Foundation.framework */; };
 		6997FE971934507F00EDDB3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6997FE961934507F00EDDB3B /* CoreGraphics.framework */; };
 		6997FE991934507F00EDDB3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6997FE981934507F00EDDB3B /* UIKit.framework */; };
@@ -22,6 +24,13 @@
 		6997FEB91934507F00EDDB3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6997FE981934507F00EDDB3B /* UIKit.framework */; };
 		6997FEC11934507F00EDDB3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6997FEBF1934507F00EDDB3B /* InfoPlist.strings */; };
 		6997FEC31934507F00EDDB3B /* SampleProject5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6997FEC21934507F00EDDB3B /* SampleProject5Tests.m */; };
+		6997FECF1934543300EDDB3B /* SuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6997FECE1934543300EDDB3B /* SuperViewController.m */; };
+		6997FED2193454E100EDDB3B /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6997FED1193454E100EDDB3B /* MenuViewController.m */; };
+		6997FED51934625200EDDB3B /* DownloadData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6997FED41934625200EDDB3B /* DownloadData.m */; };
+		6997FED81934961700EDDB3B /* radioButtonON.png in Resources */ = {isa = PBXBuildFile; fileRef = 6997FED71934961700EDDB3B /* radioButtonON.png */; };
+		6997FEDB1934964000EDDB3B /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6997FEDA1934964000EDDB3B /* QuestionViewController.m */; };
+		6997FEDF1934969500EDDB3B /* UIButton+CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6997FEDE1934969500EDDB3B /* UIButton+CustomButton.m */; };
+		69BE68921937100400F9F963 /* QuestionClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BE68911937100400F9F963 /* QuestionClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69089E0D193C6F1C00EA25BE /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		69089E0E193C6F1C00EA25BE /* FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManager.m; sourceTree = "<group>"; };
+		695412CA1941D0F800F47E06 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		6997FE911934507F00EDDB3B /* SampleProject5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleProject5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6997FE941934507F00EDDB3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6997FE961934507F00EDDB3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +67,20 @@
 		6997FEBE1934507F00EDDB3B /* SampleProject5Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleProject5Tests-Info.plist"; sourceTree = "<group>"; };
 		6997FEC01934507F00EDDB3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6997FEC21934507F00EDDB3B /* SampleProject5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleProject5Tests.m; sourceTree = "<group>"; };
+		6997FECC193452D600EDDB3B /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		6997FECD1934543300EDDB3B /* SuperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperViewController.h; sourceTree = "<group>"; };
+		6997FECE1934543300EDDB3B /* SuperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperViewController.m; sourceTree = "<group>"; };
+		6997FED0193454E100EDDB3B /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		6997FED1193454E100EDDB3B /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		6997FED31934625200EDDB3B /* DownloadData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadData.h; sourceTree = "<group>"; };
+		6997FED41934625200EDDB3B /* DownloadData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadData.m; sourceTree = "<group>"; };
+		6997FED71934961700EDDB3B /* radioButtonON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radioButtonON.png; path = Resource/radioButtonON.png; sourceTree = "<group>"; };
+		6997FED91934964000EDDB3B /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
+		6997FEDA1934964000EDDB3B /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
+		6997FEDD1934969500EDDB3B /* UIButton+CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+CustomButton.h"; path = "Custom Classes/UIButton+CustomButton.h"; sourceTree = "<group>"; };
+		6997FEDE1934969500EDDB3B /* UIButton+CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+CustomButton.m"; path = "Custom Classes/UIButton+CustomButton.m"; sourceTree = "<group>"; };
+		69BE68901937100400F9F963 /* QuestionClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionClass.h; sourceTree = "<group>"; };
+		69BE68911937100400F9F963 /* QuestionClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				695412CB1941D0F800F47E06 /* MapKit.framework in Frameworks */,
 				6997FE971934507F00EDDB3B /* CoreGraphics.framework in Frameworks */,
 				6997FE991934507F00EDDB3B /* UIKit.framework in Frameworks */,
 				6997FE951934507F00EDDB3B /* Foundation.framework in Frameworks */,
@@ -103,6 +130,7 @@
 		6997FE931934507F00EDDB3B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				695412CA1941D0F800F47E06 /* MapKit.framework */,
 				6997FE941934507F00EDDB3B /* Foundation.framework */,
 				6997FE961934507F00EDDB3B /* CoreGraphics.framework */,
 				6997FE981934507F00EDDB3B /* UIKit.framework */,
@@ -114,12 +142,26 @@
 		6997FE9A1934507F00EDDB3B /* SampleProject5 */ = {
 			isa = PBXGroup;
 			children = (
+				6997FEDC1934967600EDDB3B /* CustomClass */,
 				6997FEA31934507F00EDDB3B /* AppDelegate.h */,
 				6997FEA41934507F00EDDB3B /* AppDelegate.m */,
 				6997FEA61934507F00EDDB3B /* Main_iPhone.storyboard */,
 				6997FEA91934507F00EDDB3B /* Main_iPad.storyboard */,
 				6997FEAC1934507F00EDDB3B /* ViewController.h */,
 				6997FEAD1934507F00EDDB3B /* ViewController.m */,
+				6997FECD1934543300EDDB3B /* SuperViewController.h */,
+				6997FECE1934543300EDDB3B /* SuperViewController.m */,
+				6997FED0193454E100EDDB3B /* MenuViewController.h */,
+				6997FED1193454E100EDDB3B /* MenuViewController.m */,
+				6997FED91934964000EDDB3B /* QuestionViewController.h */,
+				6997FEDA1934964000EDDB3B /* QuestionViewController.m */,
+				6997FED31934625200EDDB3B /* DownloadData.h */,
+				6997FED41934625200EDDB3B /* DownloadData.m */,
+				69BE68901937100400F9F963 /* QuestionClass.h */,
+				69BE68911937100400F9F963 /* QuestionClass.m */,
+				69089E0D193C6F1C00EA25BE /* FileManager.h */,
+				69089E0E193C6F1C00EA25BE /* FileManager.m */,
+				6997FECC193452D600EDDB3B /* Constant.h */,
 				6997FEAF1934507F00EDDB3B /* Images.xcassets */,
 				6997FE9B1934507F00EDDB3B /* Supporting Files */,
 			);
@@ -129,6 +171,7 @@
 		6997FE9B1934507F00EDDB3B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6997FED61934960800EDDB3B /* Resource */,
 				6997FE9C1934507F00EDDB3B /* SampleProject5-Info.plist */,
 				6997FE9D1934507F00EDDB3B /* InfoPlist.strings */,
 				6997FEA01934507F00EDDB3B /* main.m */,
@@ -153,6 +196,23 @@
 				6997FEBF1934507F00EDDB3B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6997FED61934960800EDDB3B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6997FED71934961700EDDB3B /* radioButtonON.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		6997FEDC1934967600EDDB3B /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				6997FEDD1934969500EDDB3B /* UIButton+CustomButton.h */,
+				6997FEDE1934969500EDDB3B /* UIButton+CustomButton.m */,
+			);
+			name = CustomClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +293,7 @@
 			files = (
 				6997FEAB1934507F00EDDB3B /* Main_iPad.storyboard in Resources */,
 				6997FEB01934507F00EDDB3B /* Images.xcassets in Resources */,
+				6997FED81934961700EDDB3B /* radioButtonON.png in Resources */,
 				6997FEA81934507F00EDDB3B /* Main_iPhone.storyboard in Resources */,
 				6997FE9F1934507F00EDDB3B /* InfoPlist.strings in Resources */,
 			);
@@ -255,7 +316,14 @@
 			files = (
 				6997FEAE1934507F00EDDB3B /* ViewController.m in Sources */,
 				6997FEA51934507F00EDDB3B /* AppDelegate.m in Sources */,
+				6997FECF1934543300EDDB3B /* SuperViewController.m in Sources */,
+				69089E0F193C6F1C00EA25BE /* FileManager.m in Sources */,
+				6997FEDB1934964000EDDB3B /* QuestionViewController.m in Sources */,
+				69BE68921937100400F9F963 /* QuestionClass.m in Sources */,
 				6997FEA11934507F00EDDB3B /* main.m in Sources */,
+				6997FED2193454E100EDDB3B /* MenuViewController.m in Sources */,
+				6997FEDF1934969500EDDB3B /* UIButton+CustomButton.m in Sources */,
+				6997FED51934625200EDDB3B /* DownloadData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +542,7 @@
 				6997FEC81934507F00EDDB3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6997FEC91934507F00EDDB3B /* Build configuration list for PBXNativeTarget "SampleProject5Tests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +551,7 @@
 				6997FECB1934507F00EDDB3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
